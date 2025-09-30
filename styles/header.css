@@ -83,6 +83,7 @@ body::before {
   .about-me-header {
     font-size: 2rem;
     margin-bottom: 0px;
+    text-align: center;
   }
 
   .about-me-description-text {
@@ -94,5 +95,6 @@ body::before {
 
   .social-icons {
     font-size: 1.3rem;
+    justify-content: center;
   }
 }
