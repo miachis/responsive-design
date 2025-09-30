@@ -1,0 +1,55 @@
+body::before {
+  content: "";
+  width: 100%;
+  height: 720px;
+  background-color: var(--main-color);
+  box-shadow: var(--shadow);
+  transform-origin: 0;
+  transform: skewY(-13deg);
+  top: -35px;
+  position: absolute;
+  z-index: -1;
+}
+
+.first-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.header-img {
+  width: 50%;
+  box-shadow: var(--shadow);
+  z-index: 9;
+}
+
+.header-text-container {
+  background-color: white;
+  max-width: 500px;
+  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-self: center;
+  box-shadow: var(--shadow);
+}
+
+.about-me-header {
+  font-size: 40px;
+  font-family: var(--main-font);
+}
+
+.about-me-description-text {
+  font-size: 22px;
+  word-spacing: 3px;
+  color: var(--description-text-color);
+  font-family: var(--secondary-font);
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.8em;
+  font-size: 25px;
+  justify-content: flex-end;
+}
