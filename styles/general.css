@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --main-color: blanchedalmond;
+  --shadow: 1px 1px 10px rgba(128, 128, 128, 0.93);
+  --description-text-color: rgba(128, 128, 128, 0.977);
+  --main-font: "Playfair Display", serif;
+  --secondary-font: "Roboto", sans-serif;
+}
