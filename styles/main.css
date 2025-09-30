@@ -77,3 +77,25 @@
   color: var(--description-text-color);
   font-family: var(--secondary-font);
 }
+
+@media (max-width: 430px) {
+  .second-container {
+    margin-top: 0;
+    padding: 0px 0.5rem 0px 0.5rem;
+  }
+
+  .my-work {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(1, 350px);
+    justify-content: center;
+  }
+
+  .project-screenshot {
+    padding: 3rem;
+  }
+}
